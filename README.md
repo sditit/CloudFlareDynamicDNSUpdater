@@ -50,14 +50,14 @@ Run the script for the first time. You will be prompted to enter:
 
 
 ### Making the Script Executable
-Ensure the script can be executed by running:
+Ensure the script can be executed by running: <br>
 ```chmod +x CloudFlareUpdater.sh```
 
 ### Automate the Script
-To check for a new IP address and update the DNS record if necessary, every minute, use crontab:
+To check for a new IP address and update the DNS record if necessary, every minute, use crontab: <br>
 ``` crontab -e ```
 
-Add the following line to run the script every minute:
+Add the following line to run the script every minute: <br>
 ``` * * * * * /path/to/CloudFlareUpdater.sh ```
 
 
