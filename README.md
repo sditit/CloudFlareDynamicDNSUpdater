@@ -33,7 +33,7 @@ sudo yum install jq
 For MacOS, using Homebrew:
 ```brew install jq```
 
-### Setup
+## Setup
 Locate Your Zone ID:
 
 Log in to your Cloudflare dashboard.
@@ -63,7 +63,7 @@ Add the following line to run the script every minute: <br>
 
 This will execute the script at the start of every minute, checking if your public IP address has changed and updating the DNS record accordingly.
 
-### Conclusion
+## Conclusion
 
 With this setup, your domain will always point to the correct IP, even when your ISP changes your public IP address. This automation not only saves time but also reduces the downtime that might be caused by IP changes.
 
