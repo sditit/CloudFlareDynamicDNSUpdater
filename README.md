@@ -1,4 +1,4 @@
-# Cloudflare Dynamic DNS Updater
+# Cloudflare Dynamic DNS (DDNS) Updater
 
 This script facilitates the automatic updating of a DNS record on Cloudflare for users with a dynamic public IP address rather than a static one. Dynamic IPs change periodically, which can be problematic when you are hosting websites, applications, or services that rely on DNS. Using this script, you can ensure your domain always resolves to the correct IP address, making it ideal for home servers, IoT devices, or any instance where a fixed public IP is unavailable.
 
